@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Menu</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <img src="logo.png">
+            <h1>Peony Restaurant</h1>
+        </div>
+    </nav>
+
+    <form class="srcbartn">
+        <input type="text" id="srch001" placeholder="Product Search.." name="search" onclick="listFunction()" onkeyup="searchFunction()" autocomplete = "off">
+        <button type="submit" ><i class="fa fa-search"></i></button>
+        <ul id="productline"></ul>
+        </form>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h2>Welcome to Peony Restaurant</h2>
+        <p>Explore our delicious menu!</p>
+        <div class="menu-items">
+            <div class="menu-item">
+                <a href="./chicken.html">
+                    <img src="chicken.jpg" alt="Chicken">
+                    <h3>Chicken</h3>
+                </a>
+            </div>
+            <div class="menu-item">
+                <a href="./beef.html">
+                    <img src="beef.jpg" alt="Beef">
+                    <h3>Beef</h3>
+                </a>
+            </div>
+            <div class="menu-item">
+                <a href="./sushi.html">
+                    <img src="sushi.jpg" alt="Sushi">
+                    <h3>Sushi</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script src="./script.js"></script>
+</body>
+</html>
